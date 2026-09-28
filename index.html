@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF"-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tittle>My Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#" class="scroll-top">↑</a>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">My Hobbies</a></li>
+                <li><a href="#learning-plan">My Learning Plan</a></li>
+                <li><a href="#photos">My Photos</a></li>
+                <li><a href="#media">My Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><h1>
+    <span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>
+    <span class="space"></span>
+    <span>t</span><span>o</span>
+    <span class="space"></span>
+    <span>M</span><span>y</span>
+    <span class="space"></span>
+    <span>S</span><span>t</span><span>u</span><span>d</span><span>e</span><span>n</span><span>t</span>
+    <span class="space"></span>
+    <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
+</h1></h1>
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>Hello! My name is Mainza Hachilensa. I am a student currently enrolled in the Introduction to Web Technologies course. My journey into tech is driven by a deep curiosity about the "invisible architecture" of the internet—how a few lines of logic can transform into a fully interactive experience for users across the globe.</p>
+
+<p>I am currently mastering the fundamentals of HTML, CSS, and JavaScript. My ultimate career aspiration is to become a professional Web Developer, creating modern applications that are both visually engaging and accessible. When I am not studying, I recharge by exploring nature and listening to music, which keeps my creativity flowing for my next coding project.</p>
+
+<p>Check out this useful resource for learning: <a href="https://www.w3schools.com" target="_blank">W3Schools Web Development Tutorials</a>.</p>
+        </section>
+
+        <!-- HOBBIES SECTION -->
+        <section id="hobbies" class="content-section">
+    <h2>My Hobbies</h2>
+    <p>In my free time, I enjoy the following activities:</p>
+    <ul>
+        <li>Reading novels</li>
+        <li>Coding</li>
+        <li>Listening to music</li>
+    </ul>
+</section>
+
+        <!-- LEARNING PLAN SECTION -->
+        <section id="learning-plan" class="content-section">
+            <h2>My Learning Plan</h2>
+            <ol>
+                <li>Master the fundamentals of HTML5 and semantic tagging.</li>
+                <li>Learn how to style layouts effectively using CSS Flexbox and Grid.</li>
+                <li>Understand how to add interactivity to websites using JavaScript.</li>
+            </ol>
+
+            <h3>Weekly Study Schedule</h3>
+            <table>
+                <caption>My Weekly Web Development Plan</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Practice Task</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML Structure</td>
+                        <td>Build a simple 3-page website layout.</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS Styling</td>
+                        <td>Style a form and navigation bar.</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>JavaScript Basics</td>
+                        <td>Create a simple button click alert.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- PHOTOS SECTION -->
+        <section id="photos" class="content-section">
+            <h2>My Photos</h2>
+            <figure>
+                <img src="images/photo1.jpg" alt="A photo of my study desk" width="300">
+                <figcaption>Me taking a break outside.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/photo2.jpg" alt="A photo of my textbooks" width="300">
+                <figcaption>Thinking about my next coding project .</figcaption>
+            </figure>
+            <figure>
+                <img src="images/photo3.jpg" alt="A photo of my computer setup" width="300">
+                <figcaption>Exploring nature for my inspiration.</figcaption>
+            </figure>
+        </section>
+
+        <!-- MEDIA SECTION (Video and Audio) -->
+        <section id="media" class="content-section">
+            <h2>My Media</h2>
+            <h3>Self-Introduction Video</h3>
+            <video controls width="400">
+                <source src="videos/intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p><strong>Video Summary:</strong> In this video, I introduce myself and explain that I hope to learn how to build responsive websites.</p>
+
+            <h3>Audio Clip</h3>
+            <audio controls>
+                <source src="videos/voice.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p><strong>Audio Summary:</strong> In this recording, I describe why I enjoy coding.</p>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+            <p>Please fill out this form. <em>(Note: This is a demonstration only and does not send data).</em></p>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="topic">Topic:</label><br>
+                <select id="topic" name="topic">
+                    <option value="general">General Inquiry</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="collaboration">Collaboration</option>
+                </select><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Personal Website. All rights reserved.</p>
+    </footer>
+<script>
+    const scrollTopBtn = document.querySelector('.scroll-top');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            scrollTopBtn.classList.add('show');
+        } else {
+            scrollTopBtn.classList.remove('show');
+        }
+    });
+</script>
+</body>
