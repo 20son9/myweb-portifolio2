@@ -18,12 +18,13 @@
                 <li><a href="#photos">My Photos</a></li>
                 <li><a href="#media">My Media</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1><h1>
+<h1>
     <span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>
     <span class="space"></span>
     <span>t</span><span>o</span>
@@ -33,7 +34,7 @@
     <span>S</span><span>t</span><span>u</span><span>d</span><span>e</span><span>n</span><span>t</span>
     <span class="space"></span>
     <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
-</h1></h1>
+</h1>
 
         <!-- ABOUT ME SECTION -->
         <section id="about" class="content-section">
@@ -95,6 +96,27 @@
             </table>
         </section>
 
+<!-- PROJECTS / SKILLS SECTION -->
+<section id="projects" class="content-section">
+    <h2>My Projects & Skills</h2>
+    <p>Here are three examples of what I have learned so far in this course:</p>
+   
+    <div class="project-item">
+        <h3>1. Semantic HTML5 Structure</h3>
+        <p>I learned how to use tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, and <code>&lt;section&gt;</code> to create a logical, accessible layout for screen readers.</p>
+    </div>
+
+    <div class="project-item">
+        <h3>2. Responsive CSS Layouts</h3>
+        <p>I mastered CSS Flexbox and Grid to create a photo gallery that adjusts perfectly whether you are viewing it on a large desktop monitor or a small phone screen.</p>
+    </div>
+
+    <div class="project-item">
+        <h3>3. Interactive JavaScript Features</h3>
+        <p>I am currently learning how to use the DOM (Document Object Model) to add interactive features like form validation and theme switching to my website.</p>
+    </div>
+</section>
+       
         <!-- PHOTOS SECTION -->
         <section id="photos" class="content-section">
             <h2>My Photos</h2>
@@ -157,16 +179,11 @@
     </main>
 
     <footer>
+
         <p>&copy; 2026 My Personal Website. All rights reserved.</p>
+        <a href="https://github.com/20son9/myweb-portfolio2" target="_blank" style="color: var(--primary-color);">View Source on GitHub</a>
     </footer>
-<script>
-    const scrollTopBtn = document.querySelector('.scroll-top');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 300) {
-            scrollTopBtn.classList.add('show');
-        } else {
-            scrollTopBtn.classList.remove('show');
-        }
-    });
+
+<script src="script.js" defer></script>
 </script>
 </body>
